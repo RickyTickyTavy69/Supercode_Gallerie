@@ -100,20 +100,23 @@ h1 {
   width: 100%;
   justify-content: center;
   flex-wrap: wrap;
-  position: relative;
 }
 
 .gallerie--item {
   margin-top: 2vh;
 }
 
-.gallerie--item1 {
+.gallerie--item_num {
   position: absolute;
   color: black;
   font-size: 1.2em;
   z-index: 1;
-  left: 26%;
-  top: 90%;
+  left: 76%;
+  top: 85%;
+}
+
+.gallerie_row--element {
+  position: relative;
 }
 
 @media (max-width: 1350px) {
